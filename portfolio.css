@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(2, 81, 81);
+    padding: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color:aliceblue;
+    justify-content: center;
+}
+.menu a{
+       text-decoration: none;
+    color: azure;
+}
+.logo {
+    display: flex;
+    width: 70px;
+    height: 40px;
+    align-items: center;
+    float: left;
+    background-image: url(/image/download\ \(4\).png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+    filter: brightness(0) invert(1);
+    border: 1px solid white;;
+    margin-bottom: 50px;
+
+    
+}
+
+
+
+
